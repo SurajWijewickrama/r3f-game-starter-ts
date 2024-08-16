@@ -1,0 +1,1 @@
+export const characterURL = "/assets/models/starter-person.glb"
