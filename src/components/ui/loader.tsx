@@ -20,6 +20,3 @@ export default function LoaderBar({ loadingText }: { loadingText: string }) {
   );
 }
 
-LoaderBar.propTypes = {
-  loadingText: String,
-};
