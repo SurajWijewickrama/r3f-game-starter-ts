@@ -6,11 +6,12 @@ export default function LoaderBar({ loadingText }: { loadingText: string }) {
     return <></>;
   }
   return (
-    <div className="absolute z-40 h-screen w-screen bg-slate-900 flex justify-center items-center flex-col">
-      {loadingText} {progress}%
-      <div className="bg-slate-900">
+    <div className="absolute z-40 h-full w-full text-white  flex justify-center items-center flex-col p-4 bg-black">
+      <h1>{loadingText}</h1>
+      <h1>{Math.round(progress)}%</h1>
+      <div className="bg-slate-900 w-1/2">
         <div
-          className="bg-slate-300 "
+          className="bg-slate-300 h-1"
           style={{
             width: `${progress}%`,
           }}
@@ -19,4 +20,3 @@ export default function LoaderBar({ loadingText }: { loadingText: string }) {
     </div>
   );
 }
-
