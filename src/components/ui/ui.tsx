@@ -7,7 +7,7 @@ import { useGameStore } from "../../state/gameState";
 const audio = playAudio("/assets/audio/starter-audio.mp3", 0.1, true, true);
 
 export default function UI({ children }: { children: React.ReactNode }) {
-  const [start, setStart] = useState(true);
+  const [start, setStart] = useState(false);
   const [isPlayAudio, setPlayAudio] = useState(false);
   const count = useGameStore((state) => state.count);
   const increaseCount = useGameStore((state) => state.increaseCount);

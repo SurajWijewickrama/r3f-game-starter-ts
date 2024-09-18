@@ -4,7 +4,6 @@ import { KeyboardControls } from "@react-three/drei";
 import { characterURL } from "./character-url";
 import { useMemo } from "react";
 import { Character } from "./character";
-import { Vector3 } from "three";
 
 const animationSet = {
   idle: "Idle",

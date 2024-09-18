@@ -14,7 +14,10 @@
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "@react-three/rapier": "^1.4.0",
+    "@recast-navigation/three": "^0.34.0",
     "@types/three": "^0.166.0",
+    "@types/yuka": "^0.7.4",
+    "arancini": "^6.6.1",
     "ecctrl": "^1.0.83",
     "gltfjsx": "^6.5.0",
     "leva": "^0.9.35",
@@ -23,9 +26,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-joystick-component": "^6.2.1",
+    "recast-navigation": "^0.34.0",
     "socket.io-client": "^4.7.5",
     "three": "^0.166.1",
     "three-stdlib": "^2.32.2",
+    "yuka": "^0.7.8",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
